@@ -47,7 +47,7 @@ public class HW_1_6 {
         int[][] d = new int[m][n];
         for (i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                d[i][j] = a[i][j] - b[i][j];
+                d[i][j] = a[i][j] + b[i][j]*-1;
                 System.out.print(d[i][j] + " ");
             }
             System.out.println();
